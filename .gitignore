@@ -1,0 +1,78 @@
+# Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Angular specific files and directories
+/dist/
+/dist-server/
+/tmp/
+/e2e/*.js
+/e2e/*.map
+/src/*.js
+/src/*.js.map
+/src/*.d.ts
+
+# Compiled output of the Angular CLI
+/dist/
+/dist-server/
+
+# Angular service worker
+/ngsw.json
+
+# SystemJS build cache
+/systemjs.config.extras.js
+
+# Coverage directory for test results
+/coverage/
+
+# End-to-end test reports
+/e2e/reports/
+
+# Environment-specific config files
+/src/environments/*.js
+/src/environments/*.js.map
+
+# Compiled Sass output
+/src/**/*.css
+/src/**/*.css.map
+
+# Compiled TypeScript output
+/src/**/*.js
+/src/**/*.js.map
+
+# Angular CLI configuration files
+.angular-cli.json
+.angular-cli.json.*
+.angular-cli/
+.angular/
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# IDE-specific files
+/.idea/
+.vscode/
+
+# Mac OS files
+.DS_Store
+
+# Editor config files
+.editorconfig
+
+# Testing config files
+/karma.conf.js
+/protractor.conf.js
+
+# TypeScript configuration file
+/tsconfig.json
+
+# TypeScript file for type checking
+/tsconfig.tsbuildinfo
+
+# Angular language service
+/ngLS/
+
+# Jest coverage directory
+/coverage/
