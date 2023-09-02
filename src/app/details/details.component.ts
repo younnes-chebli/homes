@@ -56,9 +56,15 @@ export class DetailsComponent {
     email: new FormControl('')
   });
 
-  constructor() {
+  /* constructor() {
     this.housingLocationId = Number(this.route.snapshot.params['id']);
     this.housingLocation = this.housingService.getHousingLocationById(this.housingLocationId);
+  } */
+  constructor() {
+    const housingLocationId = parseInt(this.route.snapshot.params['id'], 10);
+    this.housingService.getHousingLocationById(housingLocationId).then(housingLocation => {
+      this.housingLocation = housingLocation;
+    });
   }
 
   submitApplication() {
