@@ -12,5 +12,5 @@ App that lists houses for rent and shows the details of individual houses.
 
 ### Misc
 * Create file.db at the root
-* Run the command ''' npm i -g json-server ''' to install [JSON Server](https://www.npmjs.com/package/json-server) to mock API
+* Run the command ``` npm i -g json-server ``` to install [JSON Server](https://www.npmjs.com/package/json-server) to mock API
 * Then run json-server --watch file.db
